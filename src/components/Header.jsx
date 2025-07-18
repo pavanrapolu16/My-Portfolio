@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./Navbar";
-
+import { Link } from "react-scroll";
 const Header = () => {
   const text = "Welcome..! I'm Sidhartha Mitta";
   const [index, setIndex] = useState(0);
@@ -19,7 +18,6 @@ const Header = () => {
   return (
     <div id="header">
       <div className="container">
-        <Navbar />
         <div className="header-text">
           <h1>{displayedText}</h1>
           <p>
@@ -32,9 +30,14 @@ const Header = () => {
             collaborate with technology teams, and gain valuable hands-on
             experience.
           </p>
-          <a href="#about" className="btn explore-btn">
+          <Link
+            to="about"
+            smooth={true}
+            className="btn explore-btn"
+            duration={1000}
+          >
             Explore More <i className="fas fa-arrow-down"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
