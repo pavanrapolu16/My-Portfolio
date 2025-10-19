@@ -13,7 +13,7 @@ const About = () => {
           <div className="col2">
             <h1 className="sub-title">About Me</h1>
             <p className="about-desc">
-              I'm Sidhartha Mitta, a Computer Science student at RGUKT Basar with a strong passion for AI/ML, full-stack development, and building meaningful tech-driven solutions. Currently, I serve as the Technical Coordinator of the E-Cell at RGUKT Basar, where I lead web development initiatives, manage digital infrastructure, and contribute to organizing tech-centric events.
+              I'm Pavan Rapolu, a Computer Science student at RGUKT Basar with a strong passion for AI/ML, full-stack development, and building meaningful tech-driven solutions. Currently, I serve as the Technical Coordinator of the E-Cell at RGUKT Basar, where I lead web development initiatives, manage digital infrastructure, and contribute to organizing tech-centric events.
             </p>
             <div className="tab-titles">
               {['skills', 'education', 'achievement'].map(tab => (
